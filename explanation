@@ -1,0 +1,9 @@
+-installed laravel intervention for image control
+-used repository design pattern to organize logic and separate it from controller
+-made user service provider to inject user repository in any place in the project containing its interface
+-made trait for file upload to upload files
+-made polymorphic relationship to store file paths and its properties in database
+-used model events to upload files if exists in request before storing user in the database
+-used enums to facilitate code reading and database optimization that i store tiny int values in database for user types
+-used form request class to validate coming values
+
